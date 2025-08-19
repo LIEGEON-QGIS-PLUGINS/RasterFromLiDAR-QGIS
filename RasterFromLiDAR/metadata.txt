@@ -1,0 +1,16 @@
+[general]
+name=RasterFromLiDAR
+qgisMinimumVersion=3.32
+description=Convertit automatiquement des fichiers LiDAR en MNT (Modèle Numérique de Terrain) et en ombrages (hillshade), avec option de remplissage des valeurs nulles. Compatible avec les fichiers LAS/LAZ.
+category=Raster
+version=1.0
+author=Théo Liégeon
+icon=icon.png
+about=Ce plugin facilite l’utilisation des données LiDAR en automatisant la génération de MNT et d’ombrages (hillshade). Il permet également de remplir les valeurs nulles et d’ajuster la résolution, la taille des tuiles et les paramètres d’illumination pour l’ombrage. Plugin développé pour QGIS 3.32. Il n’est pas prévu de mises à jour ou d’évolution. Utilisation telle quelle.
+tags=LiDAR,PDAL,Raster,MNT,MNS,Ombrage
+repository=https://github.com/LIEGEON-QGIS-PLUGINS/RasterFromLiDAR-QGIS
+experimental=False
+deprecated=False
+
+[changelog]
+1.0 - Première version stable : Conversion des fichiers LAS/LAZ en MNT, remplissage optionnel des valeurs nulles (GDAL FillNoData), génération automatique d’images d’ombrage (hillshade), ajout direct des couches produites dans le projet QGIS, interface graphique Qt Designer intégrée
