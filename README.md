@@ -4,7 +4,7 @@
 <tr>
 <td><img src="icon.png" alt="Logo du plugin" width="400"/></td>
 <td>
-<p>Le plugin <strong>Raster from LiDAR</strong> permet de générer automatiquement des <strong>MNT (Modèles Numériques de Terrain)</strong> et des <strong>ombrages</strong> à partir de fichiers LiDAR classifiés (.las ou .laz). L’utilisateur peut <strong>sélectionner les classes de points à conserver</strong> (par ex. sol, végétation basse, etc.) afin de personnaliser le MNT produit. Il offre également la possibilité de <strong>remplir les valeurs nulles</strong> sur le MNT.</p>
+<p>Le plugin <strong>Raster from LiDAR</strong> permet de générer automatiquement des <strong>MNT (Modèles Numériques de Terrain)</strong> et des <strong>ombrages</strong> à partir de fichiers LiDAR classifiés (.las ou .laz). L’utilisateur peut <strong>sélectionner les classes de points à conserver</strong> (par ex. sol, végétation basse, etc.) afin de personnaliser le MNT produit. Il offre également la possibilité de <strong>remplir les valeurs nulles</strong> sur le MNT à l'aide d'une interpolation IDW (Inverse Distance Weighting).</p>
 </td>
 </tr>
 </table>
