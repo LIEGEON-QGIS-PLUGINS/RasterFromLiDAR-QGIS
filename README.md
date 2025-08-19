@@ -4,7 +4,7 @@
 <tr>
 <td><img src="icon.png" alt="Logo du plugin" width="400"/></td>
 <td>
-<p>Le plugin <strong>Raster from LiDAR</strong> permet de générer automatiquement des <strong>MNT (Modèles Numériques de Terrain)</strong> et des <strong>ombrages</strong> à partir de fichiers LiDAR classifiés (.las ou .laz). Il offre également la possibilité de <strong>remplir les valeurs nulles</strong> sur le MNT.</p>
+<p>Le plugin <strong>Raster from LiDAR</strong> permet de générer automatiquement des <strong>MNT (Modèles Numériques de Terrain)</strong> et des <strong>ombrages</strong> à partir de fichiers LiDAR classifiés (.las ou .laz). L’utilisateur peut <strong>sélectionner les classes de points à conserver</strong> (par ex. sol, végétation basse, etc.) afin de personnaliser le MNT produit. Il offre également la possibilité de <strong>remplir les valeurs nulles</strong> sur le MNT.</p>
 </td>
 </tr>
 </table>
@@ -13,7 +13,11 @@
 
 ## Compatibilité
 
-- **QGIS 3.32**  
+- **QGIS 3.32** (testé uniquement sur cette version).
+Il est possible que le plugin fonctionne avec d’autres versions de QGIS, mais cela n’a pas été testé.
+
+>⚠️ Aucune nouvelle version n’est prévue. 
+
 - **Dépendances (incluses nativement avec QGIS) :**
   - PyQt5
   - QGIS Processing Toolbox
