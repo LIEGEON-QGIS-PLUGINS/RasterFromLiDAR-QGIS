@@ -36,9 +36,10 @@
 
 1. Ouvrez le plugin via le menu `LiDAR Tools > Raster from LiDAR`.  
 2. Sélectionnez le **dossier contenant les fichiers LiDAR**.  
-3. Définissez les dossiers de sortie pour le MNT et l’ombrage.  
-4. Optionnel : activez le remplissage des valeurs nulles et configurez les paramètres.  
-5. Cliquez sur **Lancer le traitement**.  
+3. Définissez les dossiers de sortie pour le MNT et l’ombrage.
+4. Configurez les paramètres liés aux classes de points.  
+5. Optionnel : activez le remplissage des valeurs nulles et configurez les paramètres de tuiles.  
+6. Cliquez sur **Lancer le traitement**.  
 
 > ⚠️ **Attention :** le traitement peut prendre beaucoup de temps selon la taille et le nombre de fichiers LiDAR.
 
